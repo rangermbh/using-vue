@@ -1,11 +1,11 @@
 <template>
-  <div id="app">
+  <el-main class="main-container">
     <router-view />
-  </div>
+  </el-main>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'Main'
 }
 </script>

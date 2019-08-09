@@ -1,0 +1,18 @@
+// sidebar
+$sideBarWidth: 20rem;
+$menuBgColor: #ffffff;
+$menuText: #2c3e50;
+$activeMenuText: #3eaf7c;
+
+// header
+$headerHeight: 60px;
+
+// main
+
+:export {
+  sideBarWidth: $sideBarWidth;
+  headerHeight: $headerHeight;
+  menuBgColor: $menuBgColor;
+  menuText: $menuText;
+  activeMenuText: $activeMenuText
+}

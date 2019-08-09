@@ -1,0 +1,18 @@
+#app {
+  .header-container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: $headerHeight !important;
+    width: 100%;
+    z-index: 1500;
+    background-color: #ffffff;
+    border-bottom: 1px solid #eaecef;
+  }
+  .main-container {
+    height: 100%;
+    padding: 60px 0;
+    min-height: auto;
+    margin-left: $sideBarWidth;
+  }
+}
